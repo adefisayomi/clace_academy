@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+    min-height: 100vh;
+    background-color: rgb(1,4,9);
+}
+
+.wrapper_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    border-bottom: 1px solid rgb(88, 88, 88);
+    padding: 5px;
+}
+
+.wrapper_content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex: 1 1;
+}
+
+.wrapper_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    padding: 5px;
+}

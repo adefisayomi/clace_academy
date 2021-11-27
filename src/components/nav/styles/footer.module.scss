@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 300;
+    word-spacing: 5px;
+    cursor: default;
+    padding: 10px 0;
+}
+
+
+.footer_label {
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 13.5px;
+}
